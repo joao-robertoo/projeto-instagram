@@ -17,7 +17,7 @@ body {
 }
 
 .insta-logo {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .caixa-imagens {
@@ -43,6 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
+    margin-right: auto;
 }
 
 input {
@@ -65,12 +66,22 @@ button {
     cursor: pointer;
 }
 
+.ou {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
 .login-facebook {
     color: #1877F2;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     cursor: pointer;
 }
@@ -80,4 +91,46 @@ button {
     text-align: center;
     font-size: 13px;
     cursor: pointer;
+    margin-top: 10px;
+}
+
+.cadastro {
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
+    font-size: 14px;
+}
+
+.cadastre-se {
+    color: #1877F2;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.aplicativo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    margin-right: auto;
+    
+}
+
+.app {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: auto;
+}
+
+.app img {
+    width: 140px;
+    height: auto;
 }
