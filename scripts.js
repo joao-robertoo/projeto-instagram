@@ -7,8 +7,7 @@ function trocaImagem() {
 
     } else {
         imagem.style.opacity = 0
-    }
-
+    } 
 }
 
-setInterval(trocaImagem, 2000)
+setInterval(trocaImagem, 2000);
