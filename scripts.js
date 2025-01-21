@@ -10,4 +10,4 @@ function trocaImagem() {
     } 
 }
 
-setInterval(trocaImagem, 2000);
+setInterval(trocaImagem, 3000);

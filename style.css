@@ -33,6 +33,7 @@ body {
     position: absolute;
     left: 151px;
     top: 25px;
+    transition: opacity 3s;
 
 }
 
@@ -105,42 +106,42 @@ button {
     margin-top: 10px;
 }
 
-.cadastro {
-    width: 350px;
-    border: 1px solid #dbdbdb;
-    text-align: center;
-    margin-top: 10px;
-    background-color: #ffffff;
+.caixa-cadastro {
     display: flex;
-    flex-direction: column;
-    padding: 20px 30px 20px 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+.paragrafo-cadastro {
     font-size: 14px;
 }
 
-.cadastre-se {
+.link-cadastro {
     color: #1877F2;
     font-weight: bold;
-    text-decoration: none;  
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
 }
 
-.aplicativo {
-    text-align: center;
+
+.logo-app {
+    width: 150px;
+}
+
+.paragrafo-app {
     margin-top: 20px;
-    font-size: 13px;
+    margin-bottom: 20px;
     text-align: center;
-    margin-right: auto;
-    
+    font-size: 14px;
 }
 
-.app {
-    gap: 20px;
+.caixa-app {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-right: auto;
-}
-
-.app img {
-    width: 140px;
-    height: auto;
+    gap: 10px;
 }
